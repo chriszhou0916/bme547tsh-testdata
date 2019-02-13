@@ -12,7 +12,9 @@ def parse_person(file):
     tsh_list = tsh_line.split(',')
     # remove "TSH" label
     tsh_list.pop(0)
-    print(sorted(tsh_list))
+    tsh_list.sort()
+
+    return True
 
 
 filename = "test_data.txt"

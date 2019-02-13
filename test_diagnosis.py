@@ -8,6 +8,15 @@ import pytest
     ([4, 3, 2, 1], "normal thyroid function")
 ])
 def test_exact(s, expected):
+    """Tests whether the diagnose function is correct
+
+    Args:
+        s (list): TSH measurements
+        expected (str): correct output
+
+    Returns:
+
+    """
     from tsh import diagnose
     answer = diagnose(s)
     assert answer == expected

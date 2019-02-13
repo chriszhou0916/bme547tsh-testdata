@@ -9,6 +9,8 @@ Welcome to TSH_data's documentation!
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+    test_diagnosis
+    tsh
 
 
 

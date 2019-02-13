@@ -1,0 +1,19 @@
+{
+  "First Name": "Catherine",
+  "Last Name": "Su",
+  "Age": "44",
+  "Gender": "Female",
+  "Diagnosis": "normal thyroid function",
+  "TSH": [
+    "1.1",
+    "2",
+    "2.1",
+    "2.4",
+    "2.4",
+    "3",
+    "3.5",
+    "3.7",
+    "3.9",
+    "3.9"
+  ]
+}

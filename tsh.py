@@ -13,7 +13,6 @@ def parse_person(file):
 
     Returns:
         boolean: whether the processing is successful
-
     """
     name = file.readline().strip()
     if name == "END":
@@ -34,12 +33,9 @@ def diagnose(tsh_list):
     """Determines the diagnosis given a list of tsh values
 
     "hyperthyroidism" as defined by any of their tests results being less than
-     1.0,
-    "hypothyroidism" as defined by any of their test results being greater than
-     4.0, or
-    "normal thyroid function" as defined by all of their test results being
-     between 1.0
-    and 4.0, inclusive.
+    1.0, "hypothyroidism" as defined by any of their test results being greater than
+    4.0, or "normal thyroid function" as defined by all of their test results being
+    between 1.0 and 4.0, inclusive.
     No single patient will have test results both above 4.0 and below 1.0,
     hence will only meet one of the diagnoses above.
 

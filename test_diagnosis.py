@@ -7,7 +7,7 @@ import pytest
     ([5, 4, 3], "hypothyroidism"),
     ([4, 3, 2, 1], "normal thyroid function")
 ])
-def test_exact(s, expected):
+def test_diagnosis(s, expected):
     """Tests whether the diagnose function is correct
 
     Args:

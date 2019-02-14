@@ -80,8 +80,18 @@ def write_json(name, age, gender, tsh_list):
     out.close()
 
 
-filename = "test_data.txt"
-f = open(filename, "r")
-while parse_person(f):
-    pass
-f.close()
+def main():
+    """Main method of the program
+
+    Returns:
+
+    """
+    filename = "test_data.txt"
+    f = open(filename, "r")
+    while parse_person(f):
+        pass
+    f.close()
+
+
+if __name__ == '__main__':
+    main()
